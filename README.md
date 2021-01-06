@@ -2,13 +2,13 @@
 
 # Table of Contents
 
-1. Project Overview
+1 Project Overview
 * [i.Introduction](#introduction)
 * [ii What Software do I need](#what softwares do I need?)
-[2.The Data](#the data)
-[3.Key Points](#key points)
-[4.Conclusion](#conclusion)
-[5.References](#references)
+[2 The Data](#the data)
+[3 Key Points](#key points)
+[4 Conclusion](#conclusion)
+[5 References](#references)
 
 ## Introduction<a class="anchor" id="introduction"></a>
    
