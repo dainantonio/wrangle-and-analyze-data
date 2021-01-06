@@ -2,16 +2,13 @@
 
 # Table of Contents
 
-1. [Project Overview](#project overview)
+1. Project Overview
     i. [Introduction](#introduction)
     ii. [What Software do I need](#what softwares do I need?)
-2. [Background](#background)
-    i. [Introduction](#introduction)
-    ii. [What Software do I need](#what softwares do I need?)
-3. [The Data](#the data)
-4. [Key Points](#key points)
-5. [Conclusion](#conclusion)
-6. [References](#references)
+2. [The Data](#the data)
+3. [Key Points](#key points)
+4. [Conclusion](#conclusion)
+5. [References](#references)
 
 ## Introduction<a class="anchor" id="introduction"></a>
    
@@ -21,7 +18,7 @@ The dataset that I wrangled was the tweet archive of Twitter user @dog_rates, al
 
 These ratings almost always have a denominator of 10. The numerators, though? Almost always greater than 10. 11/10, 12/10, 13/10, etc. Why? Because "they're good dogs Brent." WeRateDogs has over 4 million followers and has received international media coverage. This archive contains basic tweet data (tweet ID, timestamp, text, etc.) for all 5000+ of their tweets as they stood on August 1, 2017.
 
-## What Software Do I Need?<a class="anchor" id="what softwares do I need"></a>
+## What Software do I Need?<a class="anchor" id="what softwares do I need"></a>
  
 I worked on my local machine with Jupyter Notebook. You can use whatever you are comfortable with like VS Code etc.
 
