@@ -1,7 +1,7 @@
 # Wrangle and Analyzedata
 
 # Table of Contents
-  ===================
+
 1. [Project Overview](#project overview)
     i. [Introduction](#introduction)
     ii. [What Software do I need](#what softwares do I need?)
@@ -97,5 +97,5 @@ Reporting on 1) data wrangling efforts and 2) data analyses and visualizations
 ## Conclusion<a class="anchor" id="conclusion"></a>
    
 
-## References<a class="anchor" id="references
+## References<a class="anchor" id="references"></a>
   
