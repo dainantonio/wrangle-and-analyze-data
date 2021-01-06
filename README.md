@@ -3,8 +3,8 @@
 # Table of Contents
 
 1. Project Overview
-    i. [Introduction](#introduction)
-    ii. [What Software do I need](#what softwares do I need?)
+* i. [Introduction](#introduction)
+* ii. [What Software do I need](#what softwares do I need?)
 2. [The Data](#the data)
 3. [Key Points](#key points)
 4. [Conclusion](#conclusion)
