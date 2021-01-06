@@ -1,7 +1,7 @@
 # Wrangle and Analyzedata
 
 # Table of Contents
-  =================
+  ===================
 1. [Project Overview](#project overview)
     i. [Introduction](#introduction)
     ii. [What Software do I need](#what softwares do I need?)
@@ -14,7 +14,7 @@
 6. [References](#references)
 
 ## Introduction<a class="anchor" id="introduction"></a>
-   ============
+   
 Real-world data rarely comes clean. Using Python and its libraries, I gathered data from a variety of sources and in a variety of formats, assessed its quality and tidiness, then cleaned it. 
 
 The dataset that I wrangled was the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog. 
@@ -22,8 +22,7 @@ The dataset that I wrangled was the tweet archive of Twitter user @dog_rates, al
 These ratings almost always have a denominator of 10. The numerators, though? Almost always greater than 10. 11/10, 12/10, 13/10, etc. Why? Because "they're good dogs Brent." WeRateDogs has over 4 million followers and has received international media coverage. This archive contains basic tweet data (tweet ID, timestamp, text, etc.) for all 5000+ of their tweets as they stood on August 1, 2017.
 
 ## What Software Do I Need?<a class="anchor" id="what softwares do I need"></a>
-   ========================
-
+ 
 I worked on my local machine with Jupyter Notebook. You can use whatever you are comfortable with like VS Code etc.
 
 ## The following packages (libraries) need to be installed. You can install these packages via conda or pip. 
@@ -53,7 +52,7 @@ My goal was to wrangle this Twitter data in order to create interesting and trus
 The WeRateDogs Twitter archive contains basic tweet data for all 5000+ of their tweets, but not everything. One column the archive does contain though: each tweet's text, which I used to extract rating, dog name, and dog "stage" (i.e. doggo, floofer, pupper, and puppo) to make this Twitter archive "enhanced." Of the 5000+ tweets, I have filtered for tweets with ratings only (there are 2356).
 
 # The Data<a class="anchor" id="the data"></a>
-  ========
+ 
 ## Enhanced Twitter Archive
 
 The WeRateDogs Twitter archive contains basic tweet data for all 5000+ of their tweets, but not everything. One column the archive does contain though: each tweet's text, which I used to extract rating, dog name, and dog "stage" (i.e. doggo, floofer, pupper, and puppo) to make this Twitter archive "enhanced."
@@ -67,7 +66,7 @@ Back to the basic-ness of Twitter archives: retweet count and favorite count are
 One more cool thing: I ran every image in the WeRateDogs Twitter archive through a neural network that can classify breeds of dogs. The results: a table full of image predictions (the top three only) alongside each tweet ID, image URL, and the image number that corresponded to the most confident prediction (numbered 1 to 4 since tweets can have up to four images).
 
 ## Key Points<a class="anchor" id="key points"></a>
-   ==========
+   
 Key points to keep in mind when data wrangling for this project:
 * We only want original ratings (no retweets) that have images. Though there are 5000+ tweets in the dataset, not all are dog ratings and some are retweets.
 
@@ -80,7 +79,7 @@ Key points to keep in mind when data wrangling for this project:
 * We do not need to gather the tweets beyond August 1st, 2017. We can, but note that we won't be able to gather the image predictions for these tweets since we don't have access to the algorithm used.
 
 ## Project Details<a class="anchor" id="project details"></a>
-   ===============
+  
 We will perform the following tasks in this project:
 
 * Data wrangling, which consists of:
@@ -96,7 +95,7 @@ Storing, analyzing, and visualizing our wrangled data
 Reporting on 1) data wrangling efforts and 2) data analyses and visualizations
 
 ## Conclusion<a class="anchor" id="conclusion"></a>
-   ==========
+   
 
 ## References<a class="anchor" id="references
-   ==========
+  
