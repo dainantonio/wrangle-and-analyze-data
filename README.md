@@ -92,6 +92,8 @@ Storing, analyzing, and visualizing our wrangled data
 Reporting on 1) data wrangling efforts and 2) data analyses and visualizations
 
 ## Conclusion<a class="anchor" id="conclusion"></a>
+In this project, I gathered, assessed and cleaned data then acted on it through analysis, and visualization.  Using Python and its libraries, I gathered data from 3 different sources and in different formats. The dataset that was wrangled, analyzed and visualized is the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog. 
+
    
 
 ## References<a class="anchor" id="references"></a>
